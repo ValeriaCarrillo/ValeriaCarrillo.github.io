@@ -5,9 +5,15 @@ body {
 	background-color: pink;
 	font-size: 15px;
 	color: #545454;
-
 }
 
+body h1{
+	font-family: "Tahoma", "Geneva", sans-serif;
+}
+
+body table {
+	font-family: "Tahoma", "Geneva", sans-serif;
+}
 header {
 	font-size: 60px;
   width: 900px;
@@ -91,7 +97,7 @@ footer {
 /*  footer p {
     color: blue;
     }*/
-  width: 1170px;
+  width: 700px;
   padding-left:  50px;
   padding-right: 50px;
   margin-left:   30px;
@@ -122,7 +128,7 @@ article a{
 article b {
 	float: left;
 	font-family: "Tahoma", "Geneva", sans-serif;
-  text-align: justify;
+  text-align: center;
   background-color: rgb(44,155,188);
 }
 
