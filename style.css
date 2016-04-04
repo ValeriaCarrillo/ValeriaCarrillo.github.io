@@ -8,6 +8,7 @@ body {
 }
 
 body h1{
+	text-align: center;
 	font-family: "Tahoma", "Geneva", sans-serif;
 }
 
@@ -27,6 +28,12 @@ header {
   color: white;
 	border: 8px solid black;
 	background-color: rgb(163,73,164);
+}
+
+header div {
+	display: inline;
+	text-align: center;
+			float: left;
 }
 
 h2 {
