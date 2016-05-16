@@ -18,7 +18,7 @@ background-attachment: fixed;
   position: fixed;
   text-align: center;
   top: 70px;
-  width: 700px;7
+  width: 700px;
   visibility: hidden;
 }
 
@@ -35,7 +35,7 @@ table {
     width: 900px;
 }
 table th {
-    color: white;
+    color: black;
     background-color:  #a3a375;
     padding: 8px;
 }
@@ -61,8 +61,12 @@ h1{
     text-align: center
 }
 
+p{
+    text-align: center
+}
+
 button{
-    color: white;
+    color: black;
     border: 2px solid rgb(28, 147, 64);
     background-image: url("boton.jpg");
     border-radius: 5px;
