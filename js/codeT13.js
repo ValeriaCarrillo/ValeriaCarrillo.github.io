@@ -1,11 +1,13 @@
 $(document).ready(
 
 function(){
+	//$("#mostrar").empty();
+
 alert("ヴァラのぺーじです。\nよろしくお願いし。\nこれはアラートです。");
 
 $("#cargar").click(function(){
 
-	alert("quibo");
+	alert("Estás entrando a...");
 	$("#contenido").load("http://valeriacarrillo.github.io/");
 });
 
@@ -57,11 +59,36 @@ $("#Ajax").click(function(){
  		 });
  	 });
 
-	 $("#crear").click(function(){
+	 $("#crear").click(function() {
+		 $("#mostrar").fadeIn("slow");
+		 $("#mostrar").css("visibility","visible");
+		 $("#mostrar").css("top", "70px");
+		 $("#mostrar").css("left", "0");
+		 $("#mostrar").css("right", "0");
+		 $("#mostrar").css("margin-right", "auto");
+		 $("#mostrar").css("margin-left",  "auto");
+		 $("#mostrar").animate({
+		 marginLeft: "auto",
+		 fontSize: "14px",
+		 borderWidth: "10px",
+		 width: "900px"
+	 }, 500 );
+		 $("#cuadros").animate({
+		 margin: "235px auto"
+	 }, 500 );
+
+
 			 /*$.post("https://andreihelo-restful-api.herokuapp.com/students", {registration_number: 259605,name: "Kitaro",last_name: "Gegege",status: "°o°"}, "json", function(result){
 		         $("span").text(JSON.stringify(result))
 		     });
 		 	*/
+	 });
+
+	 $("#cerrar").click(function(){
+		 $("#cuadros").animate({
+		 margin: "70px auto"
+		 }, 500 );
+		 $("#mostrar").fadeOut( "slow" );
 	 });
 
 
